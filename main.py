@@ -20,7 +20,7 @@ logging.basicConfig(
 )
 
 # Initialize Gemini API
-GOOGLE_API_KEY = "AIzaSyBpf-CMSDWDtkcf5nzhrjFKBPrx3tJwfkg"  # Replace this
+GOOGLE_API_KEY = "g"  # Replace this
 genai.configure(api_key=GOOGLE_API_KEY)
 model = genai.GenerativeModel('gemini-pro')
 
