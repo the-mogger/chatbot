@@ -20,8 +20,7 @@ logging.basicConfig(
 )
 
 
-genai.configure(api_key=GOOGLE_API_KEY)
-model = genai.GenerativeModel('gemini-pro')
+
 
 # Cache the scraped content
 @st.cache_data(ttl=3600)  # Cache for 1 hour
